@@ -23,4 +23,3 @@ class Session:
         with open(self.filename, mode="a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             writer.writerow([timestamp,message])
-
